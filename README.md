@@ -3,7 +3,7 @@
 
 1. How to add migration ?
   => Open package manager console
-  => type command : add-migration initialMigration
+  => type command :  add-migration InitialMigration -output ./Infrastructure/Migrations
 
 2. How to update Database
    => update-database
