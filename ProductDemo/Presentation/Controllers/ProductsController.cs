@@ -1,15 +1,10 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using ProductDemo.Domain.DTO;
-using ProductDemo.Domain.Interfaces;
 using ProductDemo.Domain.Models;
-using ProductDemo.Domain.Repository;
-using System;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using ProductDemo.Infrastructure.Repository;
+using ProductDemo.Presentation.DTO;
 
-namespace ProductDemo.Controllers
+namespace ProductDemo.Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,8 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
-using ProductDemo.Domain.Mapping;
-using ProductDemo.Domain.Models;
-using ProductDemo.Domain.Repository;
+using ProductDemo.Application.Mapping;
+using ProductDemo.Infrastructure;
+using ProductDemo.Infrastructure.Repository;
 
 namespace ProductDemo
 {

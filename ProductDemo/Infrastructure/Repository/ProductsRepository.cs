@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProductDemo.Domain.Interfaces;
+using ProductDemo.Application.Interfaces;
 using ProductDemo.Domain.Models;
 
-namespace ProductDemo.Domain.Repository
+namespace ProductDemo.Infrastructure.Repository
 {
     public class ProductsRepository : IProductRepository
     {

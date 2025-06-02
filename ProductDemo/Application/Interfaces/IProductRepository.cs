@@ -1,6 +1,6 @@
 ﻿using ProductDemo.Domain.Models;
 
-namespace ProductDemo.Domain.Interfaces
+namespace ProductDemo.Application.Interfaces
 {
     public interface IProductRepository
     {

@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
-using ProductDemo.Domain.DTO;
 using ProductDemo.Domain.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using ProductDemo.Presentation.DTO;
 
-namespace ProductDemo.Domain.Mapping
+namespace ProductDemo.Application.Mapping
 {
     /// <summary>
     /// MappingProfile class, provides a named configuration for maps.

@@ -1,8 +1,6 @@
 ﻿using NJsonSchema.Annotations;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ProductDemo.Domain.DTO
+namespace ProductDemo.Presentation.DTO
 {
     [JsonSchema("Product")]
     public class ProductDTO : CreateProductDTO

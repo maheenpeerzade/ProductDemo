@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProductDemo;
+using ProductDemo.Infrastructure;
 
 #nullable disable
 
-namespace ProductDemo.Migrations
+namespace ProductDemo.Infrastructure.Migrations
 {
     [DbContext(typeof(ProductsDbContext))]
     partial class ProductsDbContextModelSnapshot : ModelSnapshot
