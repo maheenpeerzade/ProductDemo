@@ -9,9 +9,9 @@
    => update-database
 
 
-3. Please follow below sample input for the "Product" table in MS SqlServer
+3. Please follow below sample input for the "Products" table in MS SqlServer
 
-INSERT INTO Product (Name, Description, Category, UnitPrice, Discontinued, ProductionData)
+INSERT INTO Products (Name, Description, Category, UnitPrice, Discontinued, ProductionData)
 VALUES 
     ('Laptop', 'High-performance laptop', 'Electronics', 1200.50, 0, '2025-06-02'),
     ('Smartphone', 'Latest 5G smartphone', 'Electronics', 899.99, 0, '2025-05-15'),
